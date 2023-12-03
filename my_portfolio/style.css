@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(27, 27, 65) !important;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(11, 11, 66) !important;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover{
+    color: rgb(168, 16, 228) !important;
+    transition: 0.5s;
+  }
+
+  .firstsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 120px 0;
+  }
+
+  .firstsection > div{
+   width: 30%;
+  }
+
+  .leftsection{
+    font-size: 30px;
+    margin: 30px 0;
+
+  }
+
+  .rightsection img{
+    width: 80%;
+  }
+
+  .purple{
+    color: rgb(151, 86, 211) !important;
+  }
+
+  #element{
+    color: rgb(193, 143, 240) !important;
+  }
+
+  .secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+
+  }
+
+  main hr{
+    border: 0;
+    background: #9c97f1 !important;
+    height: 1.2px;
+    margin: 40px 80px;
+  }
+
+.secondsection h1{
+  font-size: 1.9rem;
+}
+
+.secondsection .box{
+  background: white !important;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.text-grey{
+  color: grey !important;
+}
+
+.secondsection .vertical{
+  height: 93px;
+  width: 1px;
+  background-color: white !important;
+  margin: 0 100px;
+
+}
+
+.image-top{
+  width: 28px;
+  position: relative;
+  top:-32px;
+  left: -9px;
+}
+
+.vertical-title{
+  position: relative;
+  top: 75px;
+  width: 150px;
+  font-size: 14px;
+}
+
+.vertical-desc{
+  position: relative;
+  top: 86px;
+  color: grey !important;
+  width: 150px;
+  font-size: 15px;
+
+}
+
+footer{
+  background-color: #0a0a20 !important;
+  height: 233px;
+}
+
+.footer{
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+
+.footer ul{
+  list-style: none;
+}
+
+.footer > div {
+  width: 223px;
+}
+
+.text-center{
+  text-align: center;
+  color: grey !important;
+}
+
+.leftsection .buttons{
+  padding: 50px 0;
+}
+
+.leftsection .btn {
+  padding: 12px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.leftsection .btn:hover{
+  background-color: #0a0a20;
+  transition: 0.5s;
+}
+
+
